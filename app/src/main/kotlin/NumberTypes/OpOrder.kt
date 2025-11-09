@@ -1,0 +1,10 @@
+// NumberTypes/OpOrder.kt
+// (c)2021 Mindview LLC. See Copyright.txt for permissions.
+package NumberTypes
+
+fun main() {
+  println(45 + 5 * 6)
+}
+/* Output:
+75
+*/

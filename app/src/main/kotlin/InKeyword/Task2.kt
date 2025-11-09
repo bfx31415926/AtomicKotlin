@@ -1,0 +1,18 @@
+// InKeyword/Task2.kt
+// (c)2021 Mindview LLC. See Copyright.txt for permissions.
+package InKeyword
+
+fun sumOfEven(n: Int): Int {
+  var result = 0
+  for (i in 0..n step 2) {
+    result += i
+  }
+  return result
+}
+
+fun main() {
+  println(sumOfEven(10))
+}
+/*
+30
+ */
