@@ -5,8 +5,8 @@ package InKeyword
 fun isLowerCase(ch: Char): Boolean = ch in 'a'..'z'
 
 fun main() {
-  println(isLowerCase('A'))
-  println(isLowerCase('b'))
+	println(isLowerCase('A'))
+	println(isLowerCase('b'))
 }
 /*
 false

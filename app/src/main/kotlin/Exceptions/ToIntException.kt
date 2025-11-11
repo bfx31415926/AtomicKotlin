@@ -3,12 +3,12 @@
 package exceptions
 
 fun erroneousCode() {
-  // Uncomment this line to get an exception:
-   val i = "1$".toInt()        // [1]
+	// Uncomment this line to get an exception:
+	val i = "1$".toInt()        // [1]
 }
 
 fun main() {
-  erroneousCode()
+	erroneousCode()
 }
 /*
 Exception in thread "main" java.lang.NumberFormatException: For input string: "1$"

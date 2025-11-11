@@ -6,8 +6,8 @@ import kotlin.math.E
 import kotlin.math.PI
 
 fun main() {
-  println(PI)
-  println(E)
+	println(PI)
+	println(E)
 }
 /*
 3.141592653589793

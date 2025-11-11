@@ -1,31 +1,32 @@
 // PropertyAccessors/Task2.kt
 // (c)2021 Mindview LLC. See Copyright.txt for permissions.
 package propertyAccessorsExercise2
+
 import atomictest.eq
 
 class Accessible {
-
-  var mutable: String = ""
-    get() {
-      println("mutable:get")
-      return field
-    }
-    set(value) {
-      println("mutable:set")
-      field = value
-    }
-
-  val readOnly: String
-    get() {
-      println("readOnly:get")
-      return mutable
-    }
+	
+	var mutable: String = ""
+		get() {
+			println("mutable:get")
+			return field
+		}
+		set(value) {
+			println("mutable:set")
+			field = value
+		}
+	
+	val readOnly: String
+		get() {
+			println("readOnly:get")
+			return mutable
+		}
 }
 
 fun main() {
-  val accessible = Accessible()
-  accessible.mutable = "abc"
-  accessible.readOnly eq "abc"
+	val accessible = Accessible()
+	accessible.mutable = "abc"
+	accessible.readOnly eq "abc"
 }
 /* Expected output:
 mutable:set

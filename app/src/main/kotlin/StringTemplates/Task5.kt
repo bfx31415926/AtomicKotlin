@@ -3,8 +3,8 @@
 package StringTemplates
 
 fun main() {
-  val answer = 42
-  println("The answer is $answer")
+	val answer = 42
+	println("The answer is $answer")
 }
 /*
 The answer is 42

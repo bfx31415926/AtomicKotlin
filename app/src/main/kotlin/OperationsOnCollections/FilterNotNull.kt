@@ -1,0 +1,11 @@
+package org.example.app.OperationsOnCollections// OperationsOnCollections/FilterNotNull.kt
+// (c)2021 Mindview LLC. See Copyright.txt for permissions.
+import atomictest.eq
+
+fun main() {
+	val list = listOf(1, 2, null)
+	list.filterNotNull() eq "[1, 2]"
+}
+/*
+[1, 2]
+ */

@@ -3,20 +3,20 @@
 package DataTypes
 
 fun main() {
-  val whole = 11
-  val fractional = 1.4
-  val trueOrFalse = true
-  val words = "A value"
-  val character = 'z'
-  val lines = """Triple quotes let
+	val whole = 11
+	val fractional = 1.4
+	val trueOrFalse = true
+	val words = "A value"
+	val character = 'z'
+	val lines = """Triple quotes let
 you have many lines
 in your string"""
-  println(whole)
-  println(fractional)
-  println(trueOrFalse)
-  println(words)
-  println(character)
-  println(lines)
+	println(whole)
+	println(fractional)
+	println(trueOrFalse)
+	println(words)
+	println(character)
+	println(lines)
 }
 /* Output:
 11

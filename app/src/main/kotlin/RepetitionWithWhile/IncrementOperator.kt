@@ -3,11 +3,11 @@
 package RepetitionWithWhile
 
 fun main() {
-  var i = 0
-  while (i < 4) {
-    print(".")
-    i++
-  }
+	var i = 0
+	while (i < 4) {
+		print(".")
+		i++
+	}
 }
 /* Output:
 ....

@@ -3,5 +3,5 @@
 package InKeyword
 
 fun foo() {
-  println("foo")
+	println("foo")
 }

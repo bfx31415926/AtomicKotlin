@@ -3,8 +3,8 @@
 package DataTypes
 
 fun main() {
-  var answer = 42
-  // Type mismatch error:
+	var answer = 42
+	// Type mismatch error:
 //  answer = "unknown"
-  println("Type mismatch")
+	println("Type mismatch")
 }

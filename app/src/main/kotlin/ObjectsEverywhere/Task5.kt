@@ -3,8 +3,8 @@
 package ObjectsEverywhere
 
 fun main() {
-  val r = IntRange(0, 10)
-
-  val s = "abc"
-
+	val r = IntRange(0, 10)
+	
+	val s = "abc"
+	
 }

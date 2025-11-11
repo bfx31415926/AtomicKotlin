@@ -5,7 +5,7 @@ package StringTemplates
 fun foo() = 1
 
 fun main() {
-  println(foo())
+	println(foo())
 }
 /*
 1

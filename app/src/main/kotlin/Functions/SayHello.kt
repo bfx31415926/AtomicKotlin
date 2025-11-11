@@ -3,16 +3,16 @@
 package Functions
 
 fun sayHello() {
-  println("Hallo!")
+	println("Hallo!")
 }
 
 fun sayGoodbye(): Unit {
-  println("Auf Wiedersehen!")
+	println("Auf Wiedersehen!")
 }
 
 fun main() {
-  sayHello()
-  sayGoodbye()
+	sayHello()
+	sayGoodbye()
 }
 /* Output:
 Hallo!

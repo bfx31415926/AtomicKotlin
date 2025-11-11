@@ -3,8 +3,8 @@
 package numberTypes
 
 fun main() {
-  val x = 10
-  println(x + 1)
+	val x = 10
+	println(x + 1)
 }
 /*
 11

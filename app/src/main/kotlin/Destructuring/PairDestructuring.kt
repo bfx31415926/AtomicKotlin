@@ -4,9 +4,9 @@ import destructuring.compute
 import atomictest.eq
 
 fun main() {
-  val (value, description) = compute(7)
-  value eq 14
-  description eq "High"
+	val (value, description) = compute(7)
+	value eq 14
+	description eq "High"
 }
 /*
 14

@@ -6,9 +6,9 @@ import kotlin.math.PI
 import kotlin.math.cos  // Cosine
 
 fun main() {
-  println(PI)
-  println(cos(PI))
-  println(cos(2 * PI))
+	println(PI)
+	println(cos(PI))
+	println(cos(2 * PI))
 }
 /* Output:
 3.141592653589793

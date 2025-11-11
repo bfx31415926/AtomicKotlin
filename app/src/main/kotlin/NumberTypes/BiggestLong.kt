@@ -3,7 +3,7 @@
 package NumberTypes
 
 fun main() {
-  println(Long.MAX_VALUE)
+	println(Long.MAX_VALUE)
 }
 /* Output:
 9223372036854775807

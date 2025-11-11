@@ -3,13 +3,13 @@
 package Properties
 
 class Counter {
-  var value = 0
-
-  fun inc() {
-    value += 10
-  }
-
-  fun dec() {
-    value -= 10
-  }
+	var value = 0
+	
+	fun inc() {
+		value += 10
+	}
+	
+	fun dec() {
+		value -= 10
+	}
 }

@@ -3,13 +3,13 @@
 package exceptionsExercise4
 
 fun foo() {
-  throw IllegalStateException("something is wrong")
+	throw IllegalStateException("something is wrong")
 }
 
 fun bar() {
-  foo()
+	foo()
 }
 
 fun main() {
-   bar() // Uncomment this to see exception
+	bar() // Uncomment this to see exception
 }

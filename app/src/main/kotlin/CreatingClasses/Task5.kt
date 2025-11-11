@@ -6,11 +6,11 @@ fun cap(s: String) = s.capitalize() //deprecated
 fun cap1(s: String) = s.replaceFirstChar { it.uppercase() }
 
 fun main() {
-    println(cap("hi!"))
-    println(cap("Hi!"))
-
-    println(cap1("hi!"))
-    println(cap1("Hi!"))
+	println(cap("hi!"))
+	println(cap("Hi!"))
+	
+	println(cap1("hi!"))
+	println(cap1("Hi!"))
 }
 /* Output:
 Hi!

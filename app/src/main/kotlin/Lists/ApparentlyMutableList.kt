@@ -3,9 +3,9 @@ package org.example.app.Lists// Lists/ApparentlyMutableList.kt
 import atomictest.eq
 
 fun main() {
-  var list = listOf('X') // Immutable
-  list += 'Y' // Appears to be mutable
-  list eq "[X, Y]"
+	var list = listOf('X') // Immutable
+	list += 'Y' // Appears to be mutable
+	list eq "[X, Y]"
 }
 /*
 [X, Y]

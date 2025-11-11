@@ -3,8 +3,8 @@
 package VarAndVal
 
 fun main() {
-  var answer = 42
-  println(answer)
-  answer = 43
-  println(answer)
+	var answer = 42
+	println(answer)
+	answer = 43
+	println(answer)
 }

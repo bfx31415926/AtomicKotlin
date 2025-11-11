@@ -3,10 +3,10 @@
 package Constructors
 
 class Floating(val d: Double) {
-  override fun toString() = d.toString()
+	override fun toString() = d.toString()
 }
 
 fun main() {
-  val floating = Floating(2.0)
-  println(floating)
+	val floating = Floating(2.0)
+	println(floating)
 }

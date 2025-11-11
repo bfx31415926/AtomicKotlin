@@ -3,10 +3,10 @@
 package ObjectsEverywhere
 
 fun isPalIgnoreCase(s: String): Boolean =
-  isPalindrome(s.lowercase())
+	isPalindrome(s.lowercase())
 
 fun main() {
-  println(isPalIgnoreCase("Mom"))
+	println(isPalIgnoreCase("Mom"))
 }
 /*
 true

@@ -3,7 +3,7 @@
 package ExpressionsStatements
 
 fun main() {
-  println(println(1))
+	println(println(1))
 }
 /*
 1

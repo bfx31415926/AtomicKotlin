@@ -3,9 +3,9 @@
 package CreatingClasses
 
 fun main() {
-  val s = "Hello!"
-  println(s.uppercase())
-  println(s.lowercase())
+	val s = "Hello!"
+	println(s.uppercase())
+	println(s.lowercase())
 }
 /* Output:
 HELLO!

@@ -3,14 +3,14 @@
 package numberTypes
 
 fun convertFahrenheitToCelsius(f: Int): Double =
-  (f - 32) * 5.0 / 9
+	(f - 32) * 5.0 / 9
 
 fun convertCelsiusToFahrenheit(c: Int): Double =
-  c * 9.0 / 5 + 32
+	c * 9.0 / 5 + 32
 
 fun main() {
-  println(convertFahrenheitToCelsius(68))
-  println(convertCelsiusToFahrenheit(20))
+	println(convertFahrenheitToCelsius(68))
+	println(convertCelsiusToFahrenheit(20))
 }
 /*
 20

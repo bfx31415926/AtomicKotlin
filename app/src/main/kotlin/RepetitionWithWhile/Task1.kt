@@ -3,15 +3,15 @@
 package repetitionWithWhile
 
 fun displayContent(s: String) {
-  var i = 0
-  while (i < s.length) {
-    println(s[i])
-    i++
-  }
+	var i = 0
+	while (i < s.length) {
+		println(s[i])
+		i++
+	}
 }
 
 fun main() {
-displayContent("abc")
+	displayContent("abc")
 }
 /* Expected output:
 a

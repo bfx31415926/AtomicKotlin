@@ -3,8 +3,8 @@
 package ExpressionsStatements
 
 fun main() {
-  var i = 1
-  println(i++ + ++i)
+	var i = 1
+	println(i++ + ++i)
 }
 /*
 4

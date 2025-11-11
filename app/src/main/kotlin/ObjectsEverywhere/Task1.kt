@@ -5,8 +5,8 @@ package ObjectsEverywhere
 fun isPalindrome(s: String): Boolean = s.reversed() == s
 
 fun main() {
-  println(isPalindrome("mom"))
-  println(isPalindrome("street"))
+	println(isPalindrome("mom"))
+	println(isPalindrome("street"))
 }
 /*
 true

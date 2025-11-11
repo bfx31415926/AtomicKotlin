@@ -3,9 +3,9 @@
 package ExpressionsStatements
 
 fun main() {
-  var x = 1
-  x = 2
-  println(x)
+	var x = 1
+	x = 2
+	println(x)
 }
 /*
 2

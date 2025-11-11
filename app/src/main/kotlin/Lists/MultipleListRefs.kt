@@ -3,12 +3,12 @@ package org.example.app.Lists// Lists/MultipleListRefs.kt
 import atomictest.eq
 
 fun main() {
-  val first = mutableListOf(1)
-  val second: List<Int> = first
-  second eq listOf(1)
-  first.add(2)
-  // second sees the change:
-  second eq listOf(1, 2)
+	val first = mutableListOf(1)
+	val second: List<Int> = first
+	second eq listOf(1)
+	first.add(2)
+	// second sees the change:
+	second eq listOf(1, 2)
 }
 /*
 [1]

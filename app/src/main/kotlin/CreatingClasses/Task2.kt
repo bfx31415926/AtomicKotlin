@@ -3,18 +3,18 @@
 package CreatingClasses
 
 class mYGiraffe {
-  fun displayID() {
-    println(toString().substringAfter('@'))
-  }
+	fun displayID() {
+		println(toString().substringAfter('@'))
+	}
 }
 
 fun main() {
-  val giraffe1 = mYGiraffe()
-  val giraffe2 = mYGiraffe()
-  val giraffe3 = mYGiraffe()
-  giraffe1.displayID()
-  giraffe2.displayID()
-  giraffe3.displayID()
+	val giraffe1 = mYGiraffe()
+	val giraffe2 = mYGiraffe()
+	val giraffe3 = mYGiraffe()
+	giraffe1.displayID()
+	giraffe2.displayID()
+	giraffe3.displayID()
 }
 /* например:
 1f32e575
