@@ -1,4 +1,5 @@
 package MemberReferences
+
 import atomictest.eq
 
 fun times47(k: Int) = k.times(47)
