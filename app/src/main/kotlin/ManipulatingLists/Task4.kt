@@ -39,11 +39,11 @@ fun main() {
 	nina.friends += egor
 	ivan.friends += ira
 	egor.friends += nina
-	friendSuggestions(alex) eq setOf( egor, ivan )
-/*
-[(Charlie, friends: [Bob])]
-[(Ivan, friends: [Ira]), (Egor, friends: [Nina])]
- */
-
-
+	friendSuggestions(alex) eq setOf(egor, ivan)
+	/*
+	[(Charlie, friends: [Bob])]
+	[(Ivan, friends: [Ira]), (Egor, friends: [Nina])]
+	 */
+	
+	
 }

@@ -15,7 +15,7 @@ fun main() {
 	
 	list.flatMap1 { (0..it).toList() } eq
 			listOf(0, 1, 2, 3, 0, 1, 0, 1, 2, 3, 4)
-
+	
 	list.flatMap2 { (0..it).toList() } eq
 			listOf(0, 1, 2, 3, 0, 1, 0, 1, 2, 3, 4)
 }
