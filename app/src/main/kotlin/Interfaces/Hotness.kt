@@ -1,37 +1,38 @@
 // Interfaces/Hotness.kt
 // (c)2021 Mindview LLC. See Copyright.txt for permissions.
 package interfaces
+
 import atomictest.*
 
 interface Hotness {
-  fun feedback(): String
+	fun feedback(): String
 }
 
 enum class SpiceLevel : Hotness {
-  Mild {
-    override fun feedback() =
-      "It adds flavor!"
-  },
-  Medium {
-    override fun feedback() =
-      "Is it warm in here?"
-  },
-  Hot {
-    override fun feedback() =
-      "I'm suddenly sweating a lot."
-  },
-  Flaming {
-    override fun feedback() =
-      "I'm in pain. I am suffering."
-  }
+	Mild {
+		override fun feedback() =
+			"It adds flavor!"
+	},
+	Medium {
+		override fun feedback() =
+			"Is it warm in here?"
+	},
+	Hot {
+		override fun feedback() =
+			"I'm suddenly sweating a lot."
+	},
+	Flaming {
+		override fun feedback() =
+			"I'm in pain. I am suffering."
+	}
 }
 
 fun main() {
-  SpiceLevel.values().map { it.feedback() } eq
-    "[It adds flavor!, " +
-    "Is it warm in here?, " +
-    "I'm suddenly sweating a lot., " +
-    "I'm in pain. I am suffering.]"
+	SpiceLevel.values().map { it.feedback() } eq
+			"[It adds flavor!, " +
+			"Is it warm in here?, " +
+			"I'm suddenly sweating a lot., " +
+			"I'm in pain. I am suffering.]"
 }
 /*
 [It adds flavor!, Is it warm in here?, I'm suddenly sweating a lot., I'm in pain. I am suffering.]
