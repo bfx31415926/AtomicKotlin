@@ -31,3 +31,8 @@ fun main() {
 	shapes.map { it.rotate() } eq
 			"[, Square: Rotate]"
 }
+/*
+[Circle: Draw, Square: Draw]
+[, Square: Rotate]
+[, Square: Rotate]
+ */

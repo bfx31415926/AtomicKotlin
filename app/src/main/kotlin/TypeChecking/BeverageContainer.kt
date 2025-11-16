@@ -39,3 +39,7 @@ fun main() {
 			"[Recycle Can, Recycle Glass, " +
 			"Landfill]"
 }
+/*
+[Pop Top, Remove Cap, Remove Cap]
+[Recycle Can, Recycle Glass, Landfill]
+ */

@@ -32,3 +32,7 @@ fun main() {
 	shapes.map { turn(it) } eq
 			"[, Square: Rotate]"
 }
+/*
+[Circle: Draw, Square: Draw]
+[, Square: Rotate]
+ */

@@ -65,3 +65,7 @@ fun main() {
 			"WaterBeetle: swim, " +
 			"WhirligigBeetle: swim]"
 }
+/*
+[HouseFly: walk HouseFly: fly, Flea: walk Flea: crawl, WaterStrider: walk WaterStrider: fly, WaterBeetle: walk WaterBeetle: fly, WhirligigBeetle: walk WhirligigBeetle: fly]
+[HouseFly: drown, Flea: drown, WaterStrider: walk on water, WaterBeetle: swim, WhirligigBeetle: swim]
+ */

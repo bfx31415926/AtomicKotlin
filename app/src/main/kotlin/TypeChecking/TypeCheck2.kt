@@ -26,3 +26,8 @@ fun main() {
 	shapes.map { turn2(it) } eq
 			"[, Square: Rotate, Triangle: Rotate]"
 }
+/*
+[Circle: Draw, Square: Draw, Triangle: Draw]
+[, Square: Rotate, ]
+[, Square: Rotate, Triangle: Rotate]
+ */

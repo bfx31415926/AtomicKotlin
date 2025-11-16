@@ -55,3 +55,7 @@ fun main() {
 			"Recycle Glass, " +
 			"Recycle PET, Recycle HDPE]"
 }
+/*
+[Pop Top, Pop Top, Remove Cap, Remove Cap, Remove Cap]
+[Recycle Steel, Recycle Aluminum, Recycle Glass, Recycle PET, Recycle HDPE]
+ */
