@@ -23,9 +23,13 @@ fun main() {
 	capture {
 		testFortyTwo2(43)
 	} contains
+			/* Пришлось подправить:
+			Было:
+    listOf("expected:", "<43> but was:", "<42>")
+			 */
 			listOf(
-				"expected:",
-				"<43> but was:", "<42>"
+				"Expected",
+				"<43>", "actual", "<42>"
 			)
 	assertFails { testFortyTwo2(43) }
 	capture {
@@ -50,3 +54,6 @@ fun main() {
 				"but was completed successfully."
 			)
 }
+/*
+Вывода не должно быть!
+ */
