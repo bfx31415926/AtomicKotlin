@@ -11,6 +11,13 @@ dependencies {
 	// Project "app" depends on project "utils". (Project paths are separated with ":", so ":utils" refers to the top-level "utils" project.)
 	implementation(project(":utils"))
 	implementation(kotlin("reflect"))
+	
+	// For tests in src/main/kotlin
+	implementation(kotlin("test"))
+	
+	// Logging
+	implementation("io.github.microutils:kotlin-logging:1.4.6")
+	implementation("org.slf4j:slf4j-simple:1.7.25")
 }
 
 application {
