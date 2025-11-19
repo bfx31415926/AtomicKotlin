@@ -22,3 +22,7 @@ fun main() {
 	//  characters eq characters2
 	charmap eq "{A=0, B=1, C=2, D=3, E=4, F=5}"
 }
+/*
+[Chars:, a, b, c, d]
+{A=0, B=1, C=2, D=3, E=4, F=5}
+ */

@@ -62,3 +62,7 @@ fun main() {
 	hamAndSwiss eq "[Bread, Toast, Ham, " +
 			"Swiss, Mustard, Grill, Cut]"
 }
+/*
+[Bread, Toast, PeanutButter, GrapeJelly, Cut]
+[Bread, Toast, Ham, Swiss, Mustard, Grill, Cut]
+ */

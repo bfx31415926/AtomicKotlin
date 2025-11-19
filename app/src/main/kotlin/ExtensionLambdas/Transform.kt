@@ -28,3 +28,7 @@ fun main() {
 	"hello".transform2(5, duplicate)
 		.transform1(3, alternate) eq "hleolhleo"
 }
+/*
+hleolhleo
+hleolhleo
+ */

@@ -14,3 +14,6 @@ fun main() {
 		return this % d == 0
 	}) eq true
 }
+/*
+true
+ */

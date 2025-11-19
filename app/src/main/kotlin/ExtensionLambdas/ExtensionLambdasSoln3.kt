@@ -73,3 +73,7 @@ fun main() {
 			"Sprayer selected, detergent, " +
 			"ammonia, water, Container sealed]"
 }
+/*
+[Container selected, detergent, abrasive, Container sealed]
+[Container selected, Sprayer selected, detergent, ammonia, water, Container sealed]
+ */

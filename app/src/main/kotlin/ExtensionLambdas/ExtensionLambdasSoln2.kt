@@ -49,3 +49,9 @@ fun main() {
 	PBJ4 eq
 			"[Toast, PeanutButter, GrapeJelly, Grill]"
 }
+/*
+[PeanutButter, GrapeJelly]
+[Toast, PeanutButter, GrapeJelly]
+[Toast, PeanutButter, GrapeJelly]
+[Toast, PeanutButter, GrapeJelly, Grill]
+ */

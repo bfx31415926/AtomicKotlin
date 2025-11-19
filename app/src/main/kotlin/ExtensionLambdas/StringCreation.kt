@@ -24,3 +24,8 @@ fun main() {
 	messy() eq clean()
 	clean() eq cleaner()
 }
+/*
+ABCs: abcdefghijklmnopqrstuvwx
+ABCs: abcdefghijklmnopqrstuvwx
+ABCs: abcdefghijklmnopqrstuvwx
+ */
