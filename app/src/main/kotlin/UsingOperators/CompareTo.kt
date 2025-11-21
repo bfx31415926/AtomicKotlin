@@ -27,3 +27,11 @@ fun main() {
 	contacts.sortedDescending() eq
 			listOf(carl, bob, alice)
 }
+/*
+true
+true
+false
+false
+[Contact(name=Alice, mobile=0123456789), Contact(name=Bob, mobile=9876543210), Contact(name=Carl, mobile=5678901234)]
+[Contact(name=Carl, mobile=5678901234), Contact(name=Bob, mobile=9876543210), Contact(name=Alice, mobile=0123456789)]
+ */

@@ -14,3 +14,7 @@ fun main() {
 	(F(3) in range) eq true
 	(F(9) in range) eq false
 }
+/*
+true
+false
+ */

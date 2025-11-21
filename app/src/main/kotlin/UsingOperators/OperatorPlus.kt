@@ -16,3 +16,11 @@ fun main() {
 	val another = list.plus(3)  // Explicit
 	another eq "[1, 3]"
 }
+/*
+[1, 2, 3, 4, 5]
+[1, 2, 3, 4, 5, 99]
+[1, 2, 3, 4, 5]
+[1]
+[1, 2]
+[1, 3]
+ */

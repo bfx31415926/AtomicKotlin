@@ -22,3 +22,9 @@ fun main() {
 	b eq 2
 	trace eq "component1() component2()"
 }
+/*
+1
+2
+component1()
+component2()
+ */

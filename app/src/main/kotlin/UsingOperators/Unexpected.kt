@@ -7,3 +7,6 @@ fun main() {
 	list += 3  // Probably unexpected
 	list eq "[1, 2, 3]"
 }
+/*
+[1, 2, 3]
+ */

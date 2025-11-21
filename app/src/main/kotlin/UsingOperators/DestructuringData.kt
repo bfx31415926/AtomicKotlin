@@ -24,3 +24,9 @@ fun main() {
 	name_ eq "Alice"
 	age_ eq 29
 }
+/*
+Alice
+29
+Alice
+29
+ */
