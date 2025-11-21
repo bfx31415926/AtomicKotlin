@@ -15,3 +15,7 @@ fun main() {
 	}
 	nullableFunc?.invoke("abc")  // [1]
 }
+/*
+3
+3
+ */

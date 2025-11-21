@@ -23,3 +23,9 @@ fun main() {
 	f(22, "Three", 3.1416) eq
 			"invoke(22, Three, 3.1416)"
 }
+/*
+invoke()
+invoke(22)
+invoke(22, Hi)
+invoke(22, Three, 3.1416)
+ */

@@ -76,3 +76,19 @@ fun main() {
     10, 20, 30, 40, 99, 60, 70
   """
 }
+/*
+IllegalArgumentException: get() index 7 out of range
+IllegalArgumentException: set() index 7 out of range
+IllegalArgumentException: get() accessing null element
+IllegalArgumentException: set() accessing null element
+10, null, null, null, null
+10, 20, null, null, null
+10, 20, 30, null, null
+10, 20, 30, 40, null
+10, 20, 30, 40, 50
+10, 20, 30, 40, 50, 60
+10, 20, 30, 40, 50, 60, 70
+r[4]: 50
+r[4]: 99
+10, 20, 30, 40, 99, 60, 70
+ */

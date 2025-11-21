@@ -22,3 +22,7 @@ fun main() {
 	c[1] = 4          // c.set(2, 4))
 	c eq C(mutableListOf(2, 4))
 }
+/*
+3
+C([2, 4])
+ */

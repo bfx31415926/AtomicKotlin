@@ -62,3 +62,24 @@ fun main() {
     Eeny -> Eeny
   """
 }
+/*
+Eeny -> Meeny
+Meeny -> Miney
+Miney -> Moe
+Moe -> Eeny
+---------------
+Meeny -> Meeny
+Miney -> Miney
+Moe -> Moe
+Eeny -> Eeny
+---------------
+Eeny -> Moe
+Moe -> Miney
+Miney -> Meeny
+Meeny -> Eeny
+---------------
+Moe -> Moe
+Miney -> Miney
+Meeny -> Meeny
+Eeny -> Eeny
+ */

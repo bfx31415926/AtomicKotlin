@@ -15,7 +15,7 @@ data class Molecule(
 	var attached: Molecule? = null
 ) {
 	var other: Molecule? = null
-
+	
 	companion object {
 		private var idCount = 0
 	}
@@ -24,13 +24,13 @@ data class Molecule(
 		attached = other
 		this.other = other
 	}
-
+	
 	override fun toString() = buildString {
 		append("Molecule(id=$id, attached=Molecule(id=${other?.id}, attached=")
-		append( if( other?.attached == null ) "null" else "NOT null")
-		append( "))" )
+		append(if (other?.attached == null) "null" else "NOT null")
+		append("))")
 	}
-
+	
 }
 
 fun main() {

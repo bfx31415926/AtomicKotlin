@@ -48,3 +48,16 @@ fun main() {
 			"IllegalArgumentException: " +
 			"'current' out of range: -1"
 }
+/*
+2
+3
+4
+5
+2
+3
+-
+2
+5
+IllegalArgumentException: 'current' out of range: 6
+IllegalArgumentException: 'current' out of range: -1
+ */

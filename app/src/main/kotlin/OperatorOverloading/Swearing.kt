@@ -11,3 +11,6 @@ fun main() {
 	"howdy" `#!%` "Ma'am!" eq
 			"howdy Rowzafrazaca Ma'am!"
 }
+/*
+howdy Rowzafrazaca Ma'am!
+ */

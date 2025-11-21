@@ -24,3 +24,9 @@ fun main() {
 	c[1] = E(4)          // c.set(2, E(4))
 	c eq C(mutableListOf(2, 4))
 }
+/*
+true
+false
+E(3)
+C([2, 4])
+ */

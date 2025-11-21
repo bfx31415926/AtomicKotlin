@@ -12,3 +12,6 @@ fun main() {
 	"mumbling" { it.uppercase() } eq
 			"MUMBLING"
 }
+/*
+MUMBLING
+ */
