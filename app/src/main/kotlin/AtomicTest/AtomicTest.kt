@@ -63,6 +63,16 @@ infix fun Double.eq(rval: Double) {
 }
 
 /**
+ * Verifies that a `Long` number is equal
+ * to `rval` (Смирнов А.А)
+ */
+infix fun Long.eq(rval: Long) {
+	test(this, rval) {
+		this == rval
+	}
+}
+
+/**
  * Holds captured exception information:
  */
 class CapturedException(
