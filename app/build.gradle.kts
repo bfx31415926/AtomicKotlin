@@ -18,6 +18,10 @@ dependencies {
 	// Logging
 	implementation("io.github.microutils:kotlin-logging:1.4.6")
 	implementation("org.slf4j:slf4j-simple:1.7.25")
+
+	// Последние две зависисмости (ниже) относятся к библиотеке "Arrow" (сайт arrow-kt.io)
+	implementation("io.arrow-kt:arrow-core:2.2.0")
+	implementation("io.arrow-kt:arrow-fx-coroutines:2.2.0")
 }
 
 application {
